@@ -1,0 +1,43 @@
+.call-by-date-section{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    align-items: center;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+}
+
+.call-cards-section{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    margin: 0 2rem;
+    width:80%;
+
+}
+.call-card{
+    /* border:1px solid ; */
+    border-radius: 5px;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.call-info{
+    display: flex;
+    gap:0.5rem;
+}
+.inbound-call-icon{
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.outbound-call-icon{
+    color: rgb(32, 211, 32);
+    font-size: 1.2rem;
+}
